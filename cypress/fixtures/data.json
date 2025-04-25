@@ -1,0 +1,18 @@
+{
+    "home" : {
+        "postalCode" : "10179",
+        "location" : "Berlin",
+        "workPosition" : "Jetzt klick auf Deine Wunschposition für die Du einen neuen Job suchst!"
+    }, 
+
+    "jobBoard": {
+        "postalCode" : "10179",
+        "workAreaText" : "Kinderkrankenpfleger/in"
+    },
+
+    "funnel": {
+        "areaTitle" : "In welchem Bereich möchtest Du arbeiten?"
+    }
+
+    
+}
