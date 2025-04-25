@@ -22,16 +22,18 @@ git clone https://github.com/LaissaPereira/pflegia_test_automation_web.git
 cd pflegia_test_automation_web
 npm install
 
-
-### ⚙️ Configuration
+---
+### ⚙️ Configuration .env
 CYPRESS_BASIC_AUTH_USER=your-username
 CYPRESS_BASIC_AUTH_PASS=your-password
 
+---
 ### 🧪 Running Tests
 
 npx cypress run
 npx cypress open
 
+---
 ### 🙌 Author
 Made with ❤️ by Laissa Pereira
 
