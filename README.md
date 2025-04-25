@@ -37,5 +37,9 @@ npx cypress open
 ### 🙌 Author
 Made with ❤️ by Laissa Pereira
 
+---
+
+🛡 License
+This project is for demo use only.
 
 
