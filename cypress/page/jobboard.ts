@@ -39,28 +39,26 @@ export class JobBoardPage extends BasePage {
     }
 
     expectJobBoardEmptyListVisible() {
-        return this.verifyElementIsVisible(this.jobBoardLocators.listEmpty)
+        this.verifyElementIsVisible(this.jobBoardLocators.listEmpty)
     }
 
     expectJobBoardListVisible() {
-        return this.verifyElementIsVisible(this.jobBoardLocators.listJobCard)
+        this.verifyElementIsVisible(this.jobBoardLocators.listJobCard)
     }
     expectPostalCodeFilterVisible() {
-        return this.verifyElementIsVisible(this.jobBoardLocators.postalTagfilter)
+        this.verifyElementIsVisible(this.jobBoardLocators.postalTagfilter)
     }
 
     expectDesiredPositionFilterVisible() {
-        return this.verifyElementIsVisible(this.jobBoardLocators.postionTagfilter)
+        this.verifyElementIsVisible(this.jobBoardLocators.postionTagfilter)
     }
     expectFacilityTypeFilterVisible() {
-        return this.verifyElementIsVisible(this.jobBoardLocators.facilityTagFilter)
+        this.verifyElementIsVisible(this.jobBoardLocators.facilityTagFilter)
     }
 
     expectRedirectJobDetailBeVisible() {
         this.verifyElementIsVisible(this.jobBoardLocators.jobDetails);
     }
-
-    
 
 
 }

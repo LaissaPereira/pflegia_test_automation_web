@@ -7,11 +7,11 @@ export class HomePage extends BasePage {
     readonly homeData = this.data.home
 
     userNavigateToHomePage(){
-        return this.navigateTo(this.homeLocators.route)
+        this.navigateTo(this.homeLocators.route)
     }
     
     expectHomeTitleBeVisible() {
-        return this.verifyElementIsVisible(this.homeLocators.title)
+        this.verifyElementIsVisible(this.homeLocators.title)
     }
 
 }
