@@ -1,4 +1,4 @@
-# 🧪 Pflegia Web Automation (Cypress)
+# 🧪 Web Automation (Cypress)
 
 This project contains automated end-to-end tests for web application using [Cypress](https://www.cypress.io/) and TypeScript.
 
