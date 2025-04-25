@@ -32,7 +32,7 @@ CYPRESS_BASIC_AUTH_PASS=your-password
 npx cypress run
 npx cypress open
 
-🙌 Author
+### 🙌 Author
 Made with ❤️ by Laissa Pereira
 
 
